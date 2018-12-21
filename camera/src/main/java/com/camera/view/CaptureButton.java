@@ -95,7 +95,7 @@ public class CaptureButton  extends View {
         LogUtil.i("CaptureButtom start");
         duration = 10 * 1000;              //默认最长录制时间为10s
         LogUtil.i("CaptureButtom end");
-        min_duration = 1500;              //默认最短录制时间为1.5s
+        min_duration = 1000;              //默认最短录制时间为1.5s
 
         center_X = (button_size + outside_add_size * 2) / 2;
         center_Y = (button_size + outside_add_size * 2) / 2;
