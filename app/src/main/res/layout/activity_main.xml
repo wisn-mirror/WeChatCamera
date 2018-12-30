@@ -1,21 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
 
     <ImageView
         android:id="@+id/result"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:visibility="gone" />
 
     <Button
         android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="start" />
-</RelativeLayout>
+        android:text="start"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/start2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start2"
+        android:visibility="visible" />
+    <Button
+        android:id="@+id/start3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start3"
+        android:visibility="visible" />
+
+    <com.wisn.wechatcamera.testcomm.VerticalCommentWidget
+        android:id="@+id/verticalCommentWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c6c257"
+        android:orientation="vertical" />
+</LinearLayout>

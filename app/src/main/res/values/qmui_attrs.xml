@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Tencent is pleased to support the open source community by making QMUI_Android available.
+
+ Copyright (C) 2017-2018 THL A29 Limited, a Tencent company. All rights reserved.
+
+ Licensed under the MIT License (the "License"); you may not use this file except in
+ compliance with the License. You may obtain a copy of the License at
+
+ http://opensource.org/licenses/MIT
+
+ Unless required by applicable law or agreed to in writing, software distributed under the License is
+ distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+ either express or implied. See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<resources>
+
+    <attr name="qmui_backgroundColor" format="color"/>
+    <attr name="qmui_borderColor" format="color"/>
+    <attr name="qmui_borderWidth" format="dimension"/>
+    <attr name="qmui_linkColor" format="color"/>
+    <attr name="qmui_orientation" format="enum">
+        <enum name="horizontal" value="0"/>
+        <enum name="vertical" value="1"/>
+    </attr>
+    <attr name="qmui_title" format="string"/>
+
+
+    <attr name="QMUIGroupListViewStyle" format="reference"/>
+    <attr name="QMUICommonListItemViewStyle" format="reference"/>
+    <attr name="qmui_common_list_item_chevron" format="reference"/>
+    <attr name="qmui_common_list_item_switch" format="reference"/>
+
+    <!--************** QMUIQQFaceView ****************-->
+    <declare-styleable name="QMUIQQFaceView">
+        <attr name="android:textColor"/>
+        <attr name="android:textSize"/>
+        <attr name="android:singleLine"/>
+        <attr name="android:maxLines"/>
+        <attr name="android:lineSpacingExtra"/>
+        <attr name="android:ellipsize"/>
+        <attr name="android:maxWidth"/>
+        <attr name="android:text"/>
+        <attr name="qmui_special_drawable_padding" format="dimension"/>
+        <attr name="qmui_more_action_text" format="string"/>
+        <attr name="qmui_more_action_color" format="color"/>
+    </declare-styleable>
+    <attr name="QMUIQQFaceStyle" format="reference"/>
+
+</resources>
